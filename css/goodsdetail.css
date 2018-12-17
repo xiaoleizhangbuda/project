@@ -1,0 +1,281 @@
+html,body,ul,li,h1,h2,dl,dt,dd,h3,h4,h5,p,div,a,input{margin: 0;padding: 0;}
+html,body{height: 100%;background: #f4f4f4;}
+#head .w ul li a{
+	color: #000;
+
+}
+img{
+	display: block;
+}
+i{
+	color: #000;
+}
+header{
+	height:60px;
+	background: #fff;
+}
+#pi-navigation{
+	height: 58px;
+	padding-right: 20px;
+	margin: 0 auto;
+	background: #fff;
+	border-top: 2px solid #f4f4f4;
+	border-bottom: 2px solid #f4f4f4;
+}
+
+#pi-navigation h2{
+	color: #000;
+	float: left;
+	line-height: 58px;
+	position: relative;	
+	left: -52px;
+	font-size: 20px;
+	font-weight: 100;
+}
+#pi-navigation span{
+	float: right;
+	line-height: 58px;
+	margin-right: 20px;
+	color: #666;
+
+}
+ul{
+	margin-left: 50px;
+}
+ul li{
+	display: inline-block;
+	margin:  0 25px
+}
+.SHOP{
+	width: 100%;
+	background: #Fff;
+	position: relative;
+	overflow: hidden;
+}
+.lefts{
+	float: left;
+	width: 50%;
+	/*border: 1px solid #000;*/
+	/*position: fixed;*/
+}
+.bigImg{
+	width: 560px;
+	height: 560px;
+	margin-left: 50px;
+}
+.bigImg img{
+	width: 560px;
+	height: 560px;
+}
+#changeImg{
+	width: 560px;
+	height: 80px;
+	cursor: pointer;
+}
+#changeImg li{
+	opacity: 0.6;
+}
+#changeImg li:nth-child(1){
+	opacity: 1;
+}
+/*#changeImg:hover{
+	opacity: 1;
+}*/
+
+#changeImg li img{
+	width: 80px;
+	height: 80px;
+}
+#changeImg li:hover{
+	opacity: 1;
+}
+.message{
+	float: right;
+	width: 50%;
+	/*background: #f0f;*/
+}
+.rights{
+	float: left;
+	margin-right: 50px;
+	width: 512px;
+	height: 205px;
+}
+.rights h2{
+	height: 50px;
+	line-height: 50px;
+	font-size: 26px;
+}
+.rights p{
+	height: 40px;
+}
+.rights p span{
+	color: #f60;
+}
+.rights h3{
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+}
+
+.rights span{
+	height: 30px;
+	line-height: 30px;
+}
+.product-config{
+	float: left;
+height: 152px;
+width: 492px;
+}
+.product-config a{
+	display: inline-block;
+	width: 234px;
+	height: 42px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 42px;
+	margin-right: 7px;
+	cursor: pointer;
+}
+.product-config a:hover{
+	border: 1px solid #05b570;
+}
+.peizhi{
+	height: 90px;
+}
+.addshopping{
+	height: 98px;
+}
+.addshopping .eaer{
+	border-color: #ccc;
+}
+.M11{
+	width: 42px;
+	height: 42px;
+	margin-left: 20px;
+}
+.send p{
+	height: 30px;
+	margin: 10px;
+}
+.fenqi {
+	height: 95px;
+	cursor: pointer;
+}
+.fenqi ul {
+	margin-left: 0;
+	width: 100%;
+	text-align: center;
+}
+.fenqi ul li{
+/*	display: inline-block;*/
+	height: 62px;
+	width: 140px;
+	border: 1px solid #ccc;
+	margin: 0;
+	float: left;
+	margin-right: 15px;
+	border-radius: 5px;
+}
+.fenqi ul li:hover{
+	border: 1px solid #05b570;
+}
+.fenqi ul li span{
+	height:30px;
+	width: 158px;
+	line-height: 30px;
+	text-align: center;
+}
+aside{
+	width: 50%;
+}
+.count{
+	height: 42px;
+	width: 208px;
+	border:1px solid #ccc;
+}
+aside input{
+	border: none;
+	width: 70px;
+	height: 42px;
+	outline: none;
+	cursor: pointer;
+}
+#buy{
+	height: 60px;
+	width: 196px;
+	background:#05b570;
+	border-radius: 5px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+#buy a{
+	color: #fff;
+}
+.list img{
+	width: 1156px;
+}
+.huabei{
+	margin: 0 auto;
+	overflow: hidden;
+	height: 229px;
+}
+.taocan{
+	margin: 0 auto;
+	height: 343px;
+}
+.r17{
+	height:682px;
+	margin: 0 auto;*/
+}
+.jianbian{
+	height:674px;
+	margin: 0 auto;
+}
+.water{
+	height:780px;
+	margin: 0 auto;
+}
+.free{
+	height:732px;
+	margin: 0 auto;
+}
+.love{
+	height:808px;
+	margin: 0 auto;
+}
+.photo{
+	height:681px;
+	margin: 0 auto;
+}
+.photo1{
+	height:675px;
+	margin: 0 auto;
+}
+.games{
+	height:724px;
+	margin: 0 auto;
+}
+.shanchong{
+	height:720px;
+	margin: 0 auto;
+}
+.zhineng{
+	height:808px;
+	margin: 0 auto;
+}
+.beizhu{
+	height:365px;
+	margin: 0 auto;
+}
+.shoplist{
+	height:645px;
+	margin: 0 auto;
+}
+.shouhou{
+	height:343px;
+	margin: 0 auto;
+}

@@ -1,0 +1,110 @@
+html,body,div,p,input,h2,span,ul,li{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+#login{
+	width: 440px;
+	height: 600px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #fff;
+}
+header{
+	height: 57px;
+	line-height: 57px;
+	width:420px;
+	margin: 0 auto;
+	
+	text-align: center;
+	border-bottom:1px solid #d3d5d8;
+	/*background: url(../images/border.png)repeat-x;*/
+
+}
+header ul{
+	width: 242px;
+	height: 57px;
+	margin: 0 auto;
+	
+}
+header ul li{
+	width: 121px;
+	height: 57px;
+	float: left;
+}
+header a{
+	display: inline-block;
+	height: 57px;
+	width: 86px;
+	font-size: 16px;
+}
+header li:nth-child(2) a{
+	color: #00925f;
+	border-bottom: 2px solid #00925f;
+	position: relative;
+	bottom: 1px;
+	
+	
+}
+header img{
+	float: right;
+	height: 17px;
+	width: 17px;
+	position: relative;
+	top: -37px;
+}
+input{
+	border:none;
+	border:1px solid #d3d5d8;
+	height: 45px;
+	width: 320px;
+	margin: 10px 50px;
+}
+.ch{
+	height: 15px;
+	width: 15px;
+}
+#checkMa{
+	position: relative;
+	left: 323px;
+	top: -45px;
+	color: #a9abab;
+}
+#btnReg{
+	background: #00925f;
+	color: #Fff;
+}
+#btnLogin:hover{
+	opacity: 0.8;
+}
+.xy{
+	font-size: 12px;
+	margin-top:20px;
+	color: #a9abab;
+}
+.agreen{
+	position: relative;
+	left: -46px;
+	top: -4px;
+}
+.oppo{
+	color: #2aad6f;
+	position: relative;
+	left: -46px;
+	top: -4px;
+}

@@ -1,0 +1,94 @@
+html,body,ul,li,h1,h2,dl,dt,dd{margin: 0;padding: 0;}
+html,body{height: 100%}
+li{list-style: none;}
+a{text-decoration: none;}
+.w{
+	width:1100px;
+	height: 60px;
+	margin: 0 auto;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+#news{
+	height: 317px;
+}
+#news ul{
+	width: 186px;
+	margin-top: 50px;
+}
+#news ul li{
+	width: 186px;
+	height: 30px;
+	line-height: 30px;
+}
+#news ul li:nth-child(1) a{
+	color: #000;
+}
+#news .r p:nth-child(1){
+	height: 50px;
+	width: 173px;
+	background: #666;
+	border-radius: 25px;
+	margin-top: 50px;
+}
+#news .r p:nth-child(1) a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+}
+#news .r p:nth-child(2){
+	font-size: 18px;
+	color: #000;
+	font-weight: 900;
+	text-align: right;
+} 
+#news .r p:nth-child(3){
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+} 
+footer{
+	height: 148px;
+}
+footer .w ul{
+	height: 148px;
+	line-height: 148px;
+}
+footer .w .l li a{
+	padding: 0 5px;
+}
+footer .w .l li:nth-child(1) a{
+	border-right: 1px solid #666;
+}
+footer .w .l li:nth-child(2) a{
+	border-right: 1px solid #666;
+}
+footer .w .l #last{
+	/*display: inline-block;*/
+	width: 15px;
+	background: url(../images/bg.png)no-repeat;
+	background-position-Y: 65px;
+}
+footer .w .l #last:hover{
+	width: 15px;
+	background: url(../images/bgf.png)no-repeat;
+	background-position-Y: 65px;
+}
+footer .w .r #last{
+	background: url(../images/global.png)no-repeat;
+	background-position-Y: 66px;
+	background-size: 16px 16px;
+	padding-left: 20px;
+}
+a{
+	color: #666;
+}
+a:hover{
+	color: #666;
+}
